@@ -1,5 +1,11 @@
 using Microsoft.EntityFrameworkCore;
-using CartaoApiModels;
+using CartaoApi.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+
 
 namespace CartaoApi.Data
 {
@@ -10,7 +16,17 @@ namespace CartaoApi.Data
 
     public DbSet<CartaoCredito> CartaoCreditos { get; set;}
 
-    public DbSet<Cliente> Clientes { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder) 
+        {
+            
+            modelBuilder.Entity<CartaoCredito>()
+                .Property(cartaoCredito => cartaoCredito.Email)
+                .HasMaxLength(100);
+
+            modelBuilder.Entity<CartaoCredito>()
+                .Property(cartaoCredito => cartaoCredito.Id)
+                .ValueGeneratedOnAdd();
+        }
     
     }
 }

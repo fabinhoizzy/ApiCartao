@@ -1,24 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
 namespace CartaoApi.Models
 {
     public class CartaoCredito
     {
-        [key]
-        public int Id {get; set;}
+        public int Id { get; set; }
+        public string Email { get; set; }
 
-        [Required(ErrorMessage = "Este campo é obrigatório")]
-        [MaxLength(60, ErrorMessage = "Este campo deve conter entre 3 e 60 caracteres"])
-        [MinLength(3, ErrorMessage = "Este campo deve conter entre 3 e 60 caracteres"])
+        public void CriarCartao () //aqui vamos iniciar Criar Cartao vazio (void)
+        {
 
-        [key]
-        public int IdCliente {get; set;}
+        }
 
-        [Required(ErrorMessage = "Este campo é obrigatório")]
-        [MaxLength(60, ErrorMessage = "Este campo deve conter entre 3 e 60 caracteres"])
-        [MinLength(3, ErrorMessage = "Este campo deve conter entre 3 e 60 caracteres"])
+        public string GerandoNumero () //Criando o gerador de numero
+        {
+            Random random = new Random(); //ele vai ser um numero aleatorio por isso random
+            string cartaoNumero = "";   //cartao Numero se iniciar vazio pra se preenchindo mais na frente
+            int numeroAleatorio;
 
-        public int NumeroCartao {get; set;}
-        [Required(ErrorMessage = "Este campo é obrigatório")]
-        [MaxLength(16, ErrorMessage = "O Cartao deve conter no maximo 16 numeros")]
-        [Range(1, int.MaxValue, ErrorMessage = "O Numero deve ser maior que 0")]
+            for (int i = 0; i < 16; i++) // criando um numero < que 16 
+            {
+                numeroAleatorio = random.Next(1, 9); //serao numero entre 1 a 9
+                cartaoNumero += numeroAleatorio.ToString(); //convertendo para num string
+            }
+
+            return cartaoNumero;
+        }
+        
     }
 }

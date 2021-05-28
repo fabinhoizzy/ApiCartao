@@ -13,7 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 //Adicionar essas duas Using
 using Microsoft.EntityFrameworkCore;
-using Cartao.Data;
+using CartaoApi.Data;
 //-------------------------
 namespace CartaoApi
 {

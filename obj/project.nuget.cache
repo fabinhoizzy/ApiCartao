@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Nfb6Fju6kKO7CeOHiZN43UoVMk4nEGtEvCSz1OsxqofPCJOcijGcrtCbUUJ1nQE2+uM50erVi3q3ko6ltr1ZYg==",
+  "dgSpecHash": "nXafVvcG0VgXHiQyQJsa+SEXX31xI9g4Wa0w8Sjfnm39TGQn4xW0PH8bRfVVaf7soxHI8uSFXb0wMV4f+TJNfg==",
   "success": true,
   "projectFilePath": "/home/fabiolinux/Documentos/CartaoApi/CartaoApi.csproj",
   "expectedPackageFiles": [
+    "/home/fabiolinux/.nuget/packages/azure.core/1.14.0/azure.core.1.14.0.nupkg.sha512",
+    "/home/fabiolinux/.nuget/packages/azure.identity/1.4.0/azure.identity.1.4.0.nupkg.sha512",
+    "/home/fabiolinux/.nuget/packages/microsoft.bcl.asyncinterfaces/1.0.0/microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
     "/home/fabiolinux/.nuget/packages/microsoft.entityframeworkcore/5.0.6/microsoft.entityframeworkcore.5.0.6.nupkg.sha512",
     "/home/fabiolinux/.nuget/packages/microsoft.entityframeworkcore.abstractions/5.0.6/microsoft.entityframeworkcore.abstractions.5.0.6.nupkg.sha512",
     "/home/fabiolinux/.nuget/packages/microsoft.entityframeworkcore.analyzers/5.0.6/microsoft.entityframeworkcore.analyzers.5.0.6.nupkg.sha512",
@@ -17,14 +20,24 @@
     "/home/fabiolinux/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "/home/fabiolinux/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
     "/home/fabiolinux/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/home/fabiolinux/.nuget/packages/microsoft.identity.client/4.30.1/microsoft.identity.client.4.30.1.nupkg.sha512",
+    "/home/fabiolinux/.nuget/packages/microsoft.identity.client.extensions.msal/2.18.4/microsoft.identity.client.extensions.msal.2.18.4.nupkg.sha512",
     "/home/fabiolinux/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/fabiolinux/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "/home/fabiolinux/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "/home/fabiolinux/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "/home/fabiolinux/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "/home/fabiolinux/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/home/fabiolinux/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
     "/home/fabiolinux/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "/home/fabiolinux/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+    "/home/fabiolinux/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "/home/fabiolinux/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/home/fabiolinux/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512",
+    "/home/fabiolinux/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/home/fabiolinux/.nuget/packages/system.security.cryptography.protecteddata/4.5.0/system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "/home/fabiolinux/.nuget/packages/system.text.encodings.web/4.7.2/system.text.encodings.web.4.7.2.nupkg.sha512",
+    "/home/fabiolinux/.nuget/packages/system.text.json/4.6.0/system.text.json.4.6.0.nupkg.sha512",
+    "/home/fabiolinux/.nuget/packages/system.threading.tasks.extensions/4.5.2/system.threading.tasks.extensions.4.5.2.nupkg.sha512"
   ],
   "logs": []
 }
